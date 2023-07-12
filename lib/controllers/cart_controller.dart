@@ -1,4 +1,3 @@
-import 'package:e_commerce_food_app/data/repository/cart_repo.dart';
 import 'package:e_commerce_food_app/models/cart_model.dart';
 import 'package:e_commerce_food_app/models/product_model.dart';
 import 'package:e_commerce_food_app/utils/colors.dart';
@@ -6,9 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
 class CartController extends GetxController {
-  final CartRepo repo;
-
-  CartController({required this.repo});
+  CartController();
 
   Map<int, CartModel> _items = {};
 
